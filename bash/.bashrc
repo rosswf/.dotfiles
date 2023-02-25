@@ -9,6 +9,7 @@ fi
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+    PATH="$(go env GOPATH)/bin:$PATH"
 fi
 export PATH
 
