@@ -28,3 +28,12 @@ ls.add_snippets("go", {
         i(0)
     }),
 })
+
+ls.add_snippets("go", {
+    s("funh", {
+        t"func (", i(1, "receiver"), t" ", i(2, "type"), t") ", i(3, "method"), t({"(w http.ResponseWriter, r *http.Request) {", "\t"}),
+        i(4, ""),
+        t({"", "}", ""}),
+        i(0),
+    }),
+})
