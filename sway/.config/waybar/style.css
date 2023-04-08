@@ -13,7 +13,7 @@ window#waybar {
     background: #1a1b26;
     color: #a9b1d6;
     opacity: 0.9;
-    border-bottom: 2px solid #a9b1d6;
+    border-bottom: 0px solid #a9b1d6;
 }
 
 #window {

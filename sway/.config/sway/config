@@ -27,9 +27,9 @@ set $menu wofi --show drun -I -i
 output * bg /home/ross/wallpaper.png fill
 
 # Border none|normal|csd|pixel 
-default_border pixel 2
+default_border pixel 1
 
-gaps inner 10
+gaps inner 5
 
 # focus_follows_mouse no
 
