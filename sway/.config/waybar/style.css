@@ -16,10 +16,6 @@ window#waybar {
     border-bottom: 0px solid #a9b1d6;
 }
 
-#window {
-    font-weight: bold;
-    font-family: "DejaVuSansMono NerdFont";
-}
 /*
 #workspaces {
     padding: 0 5px;
@@ -51,7 +47,7 @@ window#waybar {
 }
 
 #clock {
-    font-weight: bold;
+/*    font-weight: bold; */
 }
 
 #battery {
